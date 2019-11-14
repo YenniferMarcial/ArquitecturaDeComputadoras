@@ -1,0 +1,33 @@
+TIPOS DE DISCOS DUROS Y SU DEFINICIÓN
+
+***DISCO SATA
+(Serial Advanced Technology Attachment)
+es un tipo de interfaz de disco duro. Aunque SATA es el nombre de la interfaz, normalmente se usa para describir el tipo de disco duro usado, por ejemplo 7.2K SATA.
+Versiones SATA:
+SATA I
+También conocida anteriormente como SATA 1.5GB/s, SATA I opera a 1.5GB/s y puede manejar un throughput de ancho de banda de hasta 150MB/s.
+SATA II
+También conocida previamente como SATA 3GB/s, SATA II opera a 3GB/s y puede manejar un throughput de ancho de banda de hasta 300 MB/s.
+SATA III
+Conocida anteriormente como SATA 6GB/s, SATA III opera a 6GB/s, puede manejar un throughput de ancho de banda de hasta 600 MB/s y es compatible con SATA II.
+Los discos duros SATA se conectan directamente al puerto Serial ATA, yendo cada disco de forma independiente y determinando cuál es el de inicio del sistema en la BIOS. Utilizan cables planos y estrechos de 7 hilos para una mayor longitud de cables y refrigeración del sistema.
+La configuración de los discos duros SATA es mucho más sencilla y los dispositivos son mucho más actualizables. Por eso, son los más utilizados.
+Su funcionamiento es muy sencillo, ya que el ordenador envía las señales eléctricas a la bobina electromagnética que se polariza y transmite su magnetismo al disco en movimiento, las partículas magnéticas se reacomodan al pasar por la bobina y la información se almacena como partículas magnéticas
+
+
+***DISCO SSD
+(solid state drive)
+La unidad en estado sólido o unidad SSD (solid state drive) es un dispositivo de almacenamiento para datos que se basa en la utilización de memoria no volátil o comúnmente llamada memoria flash. Sustituyendo así a los discos magnéticos de los discos duros tradicionales.
+Permiten las operaciones de lectura y escritura de múltiples posiciones de memoria en una misma operación, aumentando así la velocidad respecto a las memorias EEPROM.
+
+
+***DISCO SAS
+Serial Attached SCSI (SCSI son las siglas de Small Computer System Interface, normalmente pronunciado como “scuzzy”) 
+Se emplea para describir un tipo de disco duro, normalmente 10K o 15K SAS.
+Las velocidades más altas y los mayores niveles de resistencia hacen de SAS una elección lógica para un uso de nivel avanzado y para situaciones donde la velocidad y la fiabilidad son primordiales.
+Los discos duros SAS son de dos tipos principales: 10K y 15K. La K hace referencia a la velocidad giratoria del disco duro, es decir, 10.000 y 15.000 revoluciones por minuto.
+Los discos SAS tienen capacidades de entre 300GB y 900GB
+
+***NAND
+La memoria flash NAND está formada por muchas celdas que contienen bits, y esos bits se activan o desactivan a través de una carga eléctrica. La forma en que se organizan esas celdas de encendido / apagado representa los datos almacenados en el SSD. El número de bits en esas celdas también determina la denominación de NAND
+La razón por la cual SLC solo está disponible a capacidades más bajas se debe al gran tamaño que ocupa el flash NAND en la placa de circuito impreso (PCB). La placa de circuito debe tener la controladora, la memoria DDR a modo de caché y la memoria NAND donde se guardarán los datos del usuario. La memoria MLC duplica la cantidad de bits por celda, mientras que TLC lo triplica, y QLC lo multiplica por cuatro.
